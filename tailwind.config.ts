@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        orangeAx: "#FD6F00",
+      },
+      fontFamily: {
+        sans: ["var(--font-family-main)"],
       },
     },
   },

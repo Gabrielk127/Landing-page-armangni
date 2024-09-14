@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+interface Window {
+  rdstationforms: any;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-family-main: "Poppins", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,10 +19,11 @@
   }
 }
 
+/* Aplicando a fonte globalmente */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @layer utilities {
